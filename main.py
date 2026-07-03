@@ -9,8 +9,6 @@
 # fd = fib_gener(n)
 # print(list(fd))
 
-
-
 #                         3 - misol
 
 # from collections import namedtuple
@@ -42,3 +40,28 @@
 # si  = ret_gen(text)
 # for word in si:
 #     print(word)
+
+#                      2 - misol
+
+# def b_massiv_dec(func):
+#     def wrapper():
+#         a = func()
+#         b = []
+#         s = 0
+#         for x in a:
+#             s += x
+#             b.append(s)
+#         return b
+#     return wrapper
+#
+# @b_massiv_dec
+# def massiv_yarat():
+#     n = int(input("n ni kiriting : "))
+#     a = []
+#     for i in range(n):
+#         a.append(i)
+#     return a
+#
+# print(massiv_yarat())
+
+

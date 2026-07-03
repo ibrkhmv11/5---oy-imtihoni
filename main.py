@@ -9,6 +9,8 @@
 # fd = fib_gener(n)
 # print(list(fd))
 
+
+
 #                         3 - misol
 
 # from collections import namedtuple
@@ -29,15 +31,4 @@
 # min_mil = min(cars , key=lambda x: x.mileage)
 # print(f"Eng kam milage : {min_mil.mileage} , brand nomi : {min_mil.brand}")
 
-#                        4 - misol
-
-# def ret_gen(text):
-#     text = text.split()
-#     for word in text:
-#         yield word
-#
-# text = input("Matningizni kiriting : ")
-# si  = ret_gen(text)
-# for word in si:
-#     print(word)
 
